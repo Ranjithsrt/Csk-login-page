@@ -1,0 +1,295 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#div-header h1 {
+  background-color: rgb(16, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+#div-banner {
+  background-color: rgb(255, 255, 249);
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+#div-banner h4 {
+  padding: 10px;
+}
+
+#div-banner h4 a:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#div-banner a:active {
+  color: red;
+}
+
+#nav h1 {
+  background-color: rgb(4, 154, 2);
+}
+
+.box-1 {
+  width: 33%;
+  height: 500px;
+  background-color: rgb(237, 236, 230);
+  overflow: hidden;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box-1 img {
+  width: 100%;
+  height: 500px;
+}
+
+.box-2 {
+  width: 33%;
+  height: 500px;
+  background-color: rgb(234, 15, 15);
+  overflow: hidden;
+  float: left;
+  margin-left: 10px;
+}
+
+.box-3 {
+  width: 32%;
+  height: 500px;
+  background-color: rgb(205, 234, 15);
+  overflow: hidden;
+  float: right;
+  margin-bottom: 15px;
+}
+
+.history {
+  column-count: 2;
+}
+
+/*  */
+
+.card img {
+  flex-basis: 30%;
+  grid-row: 1;
+  width: 250px;
+  height: 250px; 
+}
+
+.card p {
+  text-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.card2 img {
+  flex-grow: 30%;
+  width: 250px;
+  height: 250px;
+}
+
+.card2 p {
+  text-wrap: wrap;
+}
+
+.card2 {
+  width: 250px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.card3 img {
+  flex-basis: 30%;
+  width: 250px;
+  height: 250px;
+}
+
+.card3 p {
+  text-wrap: wrap;
+}
+
+.card3 {
+  width: 250px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.card4 img {
+  flex-basis: 30%;
+  width: 250px;
+  height: 250px;
+}
+
+.card4 p {
+  text-wrap: wrap;
+}
+
+.card4 {
+  width: 250px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.card5 img {
+  width: 250px;
+  height: 250px;
+}
+
+.card5 p {
+  text-wrap: wrap;
+}
+
+.card5 {
+  width: 250px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.card6 img {
+  width: 250px;
+  height: 250px;
+}
+
+.card6 p {
+  text-wrap: wrap;
+}
+
+.card6 {
+  width: 250px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.card-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card3 img {
+  width: 250px;
+  height: 250px;
+}
+
+.card3 p {
+  text-wrap: wrap;
+}
+
+.card3 {
+  width: 250px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.card4 img {
+  width: 250px;
+  height: 250px;
+}
+
+.card4 p {
+  text-wrap: wrap;
+}
+
+.card4 {
+  width: 250px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.card3 img {
+  width: 250px;
+  height: 250px;
+}
+
+.card3 p {
+  text-wrap: wrap;
+}
+
+.card3 {
+  width: 250px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.card4 img {
+  width: 250px;
+  height: 250px;
+}
+
+.card4 p {
+  text-wrap: wrap;
+}
+
+.card4 {
+  width: 250px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+/*  */
+
+.card7 img {
+  width: 250px;
+  height: 250px;
+}
+
+.card7 p {
+  text-wrap: wrap;
+}
+
+.card7 {
+  width: 250px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.card8 img {
+  width: 250px;
+  height: 250px;
+}
+
+.card8 p {
+  text-wrap: wrap;
+}
+
+.card8 {
+  width: 250px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.card-img img:hover {
+  opacity: 0.5;
+  color: black;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  overflow: hidden;
+  padding: 20px;
+  margin-top: 50px;
+  clear: both;
+}
